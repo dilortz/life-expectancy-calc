@@ -4,7 +4,6 @@ const lifeExpectancy = {
     female: 80.1
 };
 
-
 function calculate() {
 
     const dobInput = document.getElementById("dob");
