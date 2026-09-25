@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    contenty="width-device-width,initial-scale=1.0">
+    <title>Sri Lanka Longevity Calculator</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Longevity Calcolator</h1>
+      <p class="subtitle">Estimate a population-level statistical life expectancy baseline.</p>
+      <section class="calculator">
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob">
+        <label for="sex">Reference population</label>
+        <select id="sex">
+          <option value="both">Both sexes</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <button onclick="calculate()">Calculate</button>
+      </section>
+      <section id="result" class="result hidden">
+        <p>STATISTICAL BASELINE</p>
+        <h2>
+          <span id="lifeyears">--</span> years
+        </h2>
+        <p id="description"></p>
+        <div class="stats">
+          <div>
+            <small>Birth year</small>
+            <strong id="deathYear">--</strong>
+          </div>
+        </div>
+        <div class="warning">
+          <strong>Important:</strong>
+          This is not a prediction of your actual death date.
+          It uses population-level statistics and does nor account for individual medical history, lifestyle, genetics or enviromental exposure.
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+      
+  </body>
