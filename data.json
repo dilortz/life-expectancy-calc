@@ -1,0 +1,20 @@
+{
+    "country": "Sri Lanka",
+
+    "life_expectancy": {
+        "both_sexes": {
+            "value": 77.2,
+            "year": 2021
+        },
+
+        "male": {
+            "value": 74.2,
+            "year": 2021
+        },
+
+        "female": {
+            "value": 80.1,
+            "year": 2021
+        }
+    }
+}
